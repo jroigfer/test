@@ -1,0 +1,8 @@
+redis:
+  type: docker
+  cluster: true
+cluster:
+  prefix_redis_container: msa_redis_
+  timeout: 5000
+  redis_containers: 9
+  num_replicas: 2
